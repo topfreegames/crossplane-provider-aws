@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 // +kubebuilder:object:generate=true
-// +groupName=ec2.aws.wildlife.crossplane.io
+// +groupName=ec2.aws.wildlife.io
 // +versionName=v1alpha1
 
 package manualv1alpha1
@@ -28,7 +28,7 @@ import (
 
 // Package type metadata.
 const (
-	Group   = "ec2.aws.wildlife.crossplane.io"
+	Group   = "ec2.aws.wildlife.io"
 	Version = "v1alpha1"
 )
 
