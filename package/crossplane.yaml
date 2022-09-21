@@ -140,3 +140,18 @@ metadata:
 spec:
   controller:
     image: DOCKER_REGISTRY/provider-aws-controller:VERSION
+    permissionRequests:
+    - apiGroups:
+      - aws.crossplane.io
+      resources:
+      - providerconfigs
+      - providerconfigs/status
+      - providerconfigusages
+      - providerconfigusages/status
+      verbs:
+      - create
+      - get
+      - list
+      - watch
+      - update
+      - patch
