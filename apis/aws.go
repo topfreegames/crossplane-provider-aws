@@ -17,8 +17,8 @@ package apis
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 
-	ec2manualv1alpha1 "github.com/crossplane/provider-aws/apis/ec2/manualv1alpha1"
-	awsv1beta1 "github.com/crossplane/provider-aws/apis/v1beta1"
+	ec2manualv1alpha1 "github.com/topfreegames/crossplane-provider-aws/apis/ec2/manualv1alpha1"
+	awsv1beta1 "github.com/topfreegames/crossplane-provider-aws/apis/v1beta1"
 )
 
 func init() {
