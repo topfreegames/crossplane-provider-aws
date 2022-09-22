@@ -21,10 +21,10 @@ package v1alpha1
 import (
 	"context"
 	reference "github.com/crossplane/crossplane-runtime/pkg/reference"
-	manualv1alpha1 "github.com/crossplane/provider-aws/apis/ec2/manualv1alpha1"
-	v1beta1 "github.com/crossplane/provider-aws/apis/ec2/v1beta1"
-	v1alpha1 "github.com/crossplane/provider-aws/apis/elbv2/v1alpha1"
-	v1alpha11 "github.com/crossplane/provider-aws/apis/kms/v1alpha1"
+	manualv1alpha1 "github.com/topfreegames/crossplane-provider-aws/apis/ec2/manualv1alpha1"
+	v1beta1 "github.com/topfreegames/crossplane-provider-aws/apis/ec2/v1beta1"
+	v1alpha1 "github.com/topfreegames/crossplane-provider-aws/apis/elbv2/v1alpha1"
+	v1alpha11 "github.com/topfreegames/crossplane-provider-aws/apis/kms/v1alpha1"
 	errors "github.com/pkg/errors"
 	client "sigs.k8s.io/controller-runtime/pkg/client"
 )

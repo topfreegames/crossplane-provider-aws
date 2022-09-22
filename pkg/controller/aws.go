@@ -21,8 +21,8 @@ import (
 
 	"github.com/crossplane/crossplane-runtime/pkg/controller"
 
-	"github.com/crossplane/provider-aws/pkg/controller/config"
-	"github.com/crossplane/provider-aws/pkg/controller/ec2/vpcpeeringconnection"
+	"github.com/topfreegames/crossplane-provider-aws/pkg/controller/config"
+	"github.com/topfreegames/crossplane-provider-aws/pkg/controller/ec2/vpcpeeringconnection"
 )
 
 // Setup creates all AWS controllers with the supplied logger and adds them to

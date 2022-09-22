@@ -26,8 +26,8 @@ import (
 	"github.com/aws/smithy-go"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/crossplane/provider-aws/apis/ec2/manualv1alpha1"
-	awsclients "github.com/crossplane/provider-aws/pkg/clients"
+	"github.com/topfreegames/crossplane-provider-aws/apis/ec2/manualv1alpha1"
+	awsclients "github.com/topfreegames/crossplane-provider-aws/pkg/clients"
 )
 
 const (

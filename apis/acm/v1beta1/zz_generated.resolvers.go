@@ -21,7 +21,7 @@ package v1beta1
 import (
 	"context"
 	reference "github.com/crossplane/crossplane-runtime/pkg/reference"
-	v1beta1 "github.com/crossplane/provider-aws/apis/acmpca/v1beta1"
+	v1beta1 "github.com/topfreegames/crossplane-provider-aws/apis/acmpca/v1beta1"
 	errors "github.com/pkg/errors"
 	client "sigs.k8s.io/controller-runtime/pkg/client"
 )
