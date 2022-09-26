@@ -1,8 +1,8 @@
 # ====================================================================================
 # Setup Project
 
-PROJECT_NAME := provider-aws
-PROJECT_REPO := github.com/topfreegames/crossplane-provider-aws/$(PROJECT_NAME)
+PROJECT_NAME := crossplane-provider-aws
+PROJECT_REPO := github.com/topfreegames/$(PROJECT_NAME)
 
 PLATFORMS ?= linux_amd64 linux_arm64
 
